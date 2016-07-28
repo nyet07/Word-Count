@@ -8,4 +8,4 @@ Second version includes parent-child relationship among processes plus unnamed p
 
 Third version has client-server architecture with named pipes(FIFOs) and double fork technique to avoid zombie processes.
 
-Fourth version is exactly the same as third one except it uses POSIX shared memory and semaphores for communication.
+Fourth version is exactly the same as the third one except that it uses POSIX shared memory and semaphores for communication.
