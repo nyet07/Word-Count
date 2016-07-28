@@ -1,0 +1,7 @@
+Project Details:
+
+Exactly the same project as project 3, except that POSIX shared memory and semaphores are used in this one. 
+Instead of FIFOs, POSIX shared memory and POSIX semaphores are used in this project.
+Shared Memory is faster compared to FIFO, since it doesn't require a call to the kernel.
+Weakness of shared memory is that programmer himself has to solve problems because of
+synchranization issues. 

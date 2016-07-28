@@ -1,0 +1,6 @@
+Project Details:
+
+This project forks separate processes for reading each file that has words in them.
+Communcation between parent and children processes is done via unnamed pipes.
+Each process sends words from each file to the parent process and parent creates the 
+final binary search tree that has all the words. 

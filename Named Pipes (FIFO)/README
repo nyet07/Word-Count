@@ -1,0 +1,8 @@
+Project Details:
+
+Client-Server Architecture with named pipes(FIFOs). POSIX FIFOs are used to enable communication between 
+separate processes. Double-fork technique is used within the server process to 
+avoid zombie processes when dealing with client requests. 
+
+Client makes a request to the server, and server forks a process using double fork
+technique to deal with that specific client. Simultaneous client requests are allowed.
